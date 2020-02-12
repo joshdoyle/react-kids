@@ -1,10 +1,11 @@
 import React from 'react';
+import KidContainer from './KidContainer'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h2>Hello World!</h2>
+      <KidContainer />
     </div>
   );
 }
